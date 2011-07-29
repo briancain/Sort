@@ -1,6 +1,6 @@
 ::: About sortAlg.py :::
 : Written by Brian Cain :
-:: 2011 Version 0.5 ::
+:: 2011 Version 1.0 ::
 The sortAlg.py is an application written in python for the purpose
 of comparing the sort time of different algorithms. This program 
 demonstrates a few different sorting algorithms. First you must
