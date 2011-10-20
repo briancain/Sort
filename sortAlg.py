@@ -80,7 +80,7 @@ def generateList():
   rng = input("Enter Max Size: ")
   lst = []
   for i in range(rng):
-    lst.append(random.randint(1,100))
+    lst.append(random.randint(1,1000000))
   return lst
 
 def exit():
