@@ -1,4 +1,4 @@
-=Sorting Application in Python
+# Sorting Application in Python
 
 This is a sorting application I programmed to turn in with some interviews. It's a fairly simple application that shows the difference between a few different sorting algorithms. It was programmed so that it would be simple to add more algorithms if needed, hence why each sorting algorithm is placed in its own python script file.
 
