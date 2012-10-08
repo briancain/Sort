@@ -2,7 +2,7 @@
 
 This is a sorting application I programmed to turn in with some interviews. It's a fairly simple application that shows the difference between a few different sorting algorithms. It was programmed so that it would be simple to add more algorithms if needed, hence why each sorting algorithm is placed in its own python script file.
 
-This application was programmed in Python 2.7.2.
+This application was programmed in Python 2.7.3.
 
 To run this application, 'cd' to its own folder, and type 'python sortAlg.py' (minus the quotes of course). This will run the application and generate python executable files for every extra python script that has been added.
 
