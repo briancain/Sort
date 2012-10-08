@@ -7,3 +7,7 @@ This application was programmed in Python 2.7.2.
 To run this application, 'cd' to its own folder, and type 'python sortAlg.py' (minus the quotes of course). This will run the application and generate python executable files for every extra python script that has been added.
 
 I claim no authorship of any sorting algorithms used in this application.
+
+## Update 2.0
+
+I have made an update to this program which includes 3 new algorithms, and a new way to test all algorithms on the same random array.
