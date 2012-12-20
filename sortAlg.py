@@ -65,7 +65,7 @@ def main():
                 start = time.time()
                 lst = myradixsort.radix_sort(lst, 10, 5)
                 elapsed = (time.time() - start)
-                printSort(lst, elapsed, "Selection Sort")
+                printSort(lst, elapsed, "Radix Sort")
         elif "6" in answer:
             if lst:
                 print "\nCalculating..."
@@ -140,7 +140,24 @@ def printSort(lst, elapsedt, sorttype):
         f.write("Elapsed Time ("+ sorttype + "): " + str(elapsedt) + " seconds\n")
         f.write("=================\n")
         f.close()
-
+    elif sorttype == "Bubble Sort":
+        f = open("bub_results.txt", "a")
+        f.write("Size of Array: " + str(len(lst)) + "\n")
+        f.write("Elapsed Time ("+ sorttype + "): " + str(elapsedt) + " seconds\n")
+        f.write("=================\n")
+        f.close()
+    elif sorttype == "Selection Sort":
+        f = open("sel_results.txt", "a")
+        f.write("Size of Array: " + str(len(lst)) + "\n")
+        f.write("Elapsed Time ("+ sorttype + "): " + str(elapsedt) + " seconds\n")
+        f.write("=================\n")
+        f.close()
+    elif sorttype == "Radix Sort":
+        f = open("rdx_results.txt", "a")
+        f.write("Size of Array: " + str(len(lst)) + "\n")
+        f.write("Elapsed Time ("+ sorttype + "): " + str(elapsedt) + " seconds\n")
+        f.write("=================\n")
+        f.close()
 
 def generateFile(lst):
     # get input from user for file name, check if file already exists (or just give an overwrite warning)
